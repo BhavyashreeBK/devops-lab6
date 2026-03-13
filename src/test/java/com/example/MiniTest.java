@@ -15,11 +15,9 @@ public class MiniTest {
 
         WebDriver driver = new FirefoxDriver();
 
-        try {
-            driver.get("https://www.google.com");
-            System.out.println("Successfully opened: " + driver.getTitle());
-        } finally {
-            driver.quit();
-        }
+        driver.get("https://www.google.com");
+        System.out.println("Successfully opened: " + driver.getTitle());
+
+        driver.quit();
     }
 }
