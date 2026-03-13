@@ -21,7 +21,7 @@
   <dependencies>
        <dependency>
        <groupId>org.seleniumhq.selenium</groupId>
-       <groupId>selenium-java</groupId>
+       <artifactId>selenium-java</artifactId>
        <version>4.12.1</version>
        </dependency>
        <dependency>
