@@ -10,7 +10,6 @@ public class MiniTest {
     @Test
     public void simpleTest() {
 
-        // Automatically downloads correct driver
         WebDriverManager.firefoxdriver().setup();
 
         WebDriver driver = new FirefoxDriver();
@@ -18,7 +17,6 @@ public class MiniTest {
         try {
             driver.get("https://www.google.com");
             System.out.println("Successfully opened: " + driver.getTitle());
-
         } finally {
             driver.quit();
         }
